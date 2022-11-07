@@ -1,0 +1,49 @@
+body {
+  background-color: #f5f5f5;
+  color: #212121;
+}
+
+.logo {
+  color: #000000;
+}
+
+.logo > span {
+  color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+
+.menu-nav .link {
+  color: #212121;
+}
+
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: #2196f3;
+}
+
+.contact .link {
+  color: #757575;
+}
+
+.contact .link:hover,
+.contact .link:focus {
+  color: #2196f3;
+}
+
+.hero-title {
+  color: #ffffff;
+}
+
+.section-title {
+  color: #212121;
+}
+
+.features-list .title {
+  color: #212121;
+}
+
+.features-list .title-text {
+  color: #757575;
+}
