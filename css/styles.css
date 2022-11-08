@@ -1,6 +1,12 @@
+:root {
+  --primari-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
 body {
   background-color: #f5f5f5;
-  color: #212121;
+  color: var(--primari-text-color);
 }
 
 .logo {
@@ -10,40 +16,66 @@ body {
 .logo > span {
   color: #2196f3;
 }
+
 .list {
   list-style: none;
 }
 
 .menu-nav .link {
-  color: #212121;
+  color: var(--primari-text-color);
 }
 
 .menu-nav .link:hover,
 .menu-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
+}
+
+.menu-nav .link.current {
+  color: var(--accent-color);
 }
 
 .contact .link {
-  color: #757575;
+  color: var(--title-text-color);
 }
 
 .contact .link:hover,
 .contact .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .hero-title {
   color: #ffffff;
 }
 
-.section-title {
-  color: #212121;
+.peculiarities-title {
+  color: var(--primari-text-color);
 }
 
 .features-list .title {
-  color: #212121;
+  color: var(--primari-text-color);
 }
 
 .features-list .title-text {
-  color: #757575;
+  color: var(--title-text-color);
+}
+
+.our-work-title {
+  color: var(--primari-text-color);
+}
+
+.our-teams-title {
+  color: var(--primari-text-color);
+}
+
+.teams .title {
+  color: var(--primari-text-color);
+}
+
+.teams .text {
+  color: var(--title-text-color);
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  color: #ffffff;
 }
