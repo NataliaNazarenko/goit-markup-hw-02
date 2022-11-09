@@ -7,10 +7,15 @@
 body {
   background-color: #f5f5f5;
   color: var(--primari-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 .logo {
   color: #000000;
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.11;
+  letter-spacing: 0.03em;
 }
 
 .logo > span {
@@ -23,6 +28,9 @@ body {
 
 .menu-nav .link {
   color: var(--primari-text-color);
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .menu-nav .link:hover,
@@ -36,6 +44,9 @@ body {
 
 .contact .link {
   color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .contact .link:hover,
@@ -78,4 +89,12 @@ body {
 .btn-primary {
   background-color: var(--accent-color);
   color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
